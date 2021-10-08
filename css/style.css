@@ -6,3 +6,8 @@
     box-sizing: border-box;
 }
 
+[class*="col-"] {
+    min-height: 50px;
+    background-color: blue;
+    border: solid 1px white;
+}
