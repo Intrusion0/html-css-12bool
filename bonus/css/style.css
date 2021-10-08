@@ -23,9 +23,29 @@
 .col-lg-6 > .container-fluid .row div {
     border: solid 1px #006cfa;
     background-color: #00e265;
-
 }
 
 .container-fluid:nth-child(3) {
     margin-top: 20px;
+}
+
+/* BONUS */
+.row .col-xs-6:first-child > .container-fluid .row div:nth-child(1), .row .col-xs-6:first-child > .container-fluid .row:first-child div:nth-child(2) {
+    display: none;
+}
+
+.col-display:nth-child(2), .col-display:nth-child(3), .col-display:nth-child(5), .col-display:nth-child(6), .col-display:nth-child(8), .col-display:nth-child(9), .col-display:nth-child(11), .col-display:nth-child(12){
+    display: none;
+}
+
+.first {
+    display: none;
+}
+
+.second {
+    display: block;
+}
+
+.container-fluid span {
+    border: 0;
 }

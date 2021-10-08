@@ -121,6 +121,23 @@
     .col-sm-offset-12 {
         margin-left: calc((100% / 12) * 12);
     } 
+
+    /* BONUS */
+    .row .col-xs-6:first-child > .container-fluid .row div:nth-child(1), .row .col-xs-6:first-child > .container-fluid .row:first-child div:nth-child(2) {
+        display: flex !important;
+    }
+
+    .col-display:nth-child(2), .col-display:nth-child(3), .col-display:nth-child(5), .col-display:nth-child(6), .col-display:nth-child(8), .col-display:nth-child(9), .col-display:nth-child(11), .col-display:nth-child(12){
+        display: flex !important;
+    }
+
+    .first {
+        display: block !important;
+    }
+    
+    .second {
+        display: none !important;
+    }
 }
 
 /* Tablet (md) */
@@ -244,6 +261,24 @@
     .col-md-offset-12 {
         margin-left: calc((100% / 12) * 12);
     } 
+
+    /* BONUS */
+
+    .row .col-xs-6:first-child > .container-fluid .row div:nth-child(1), .row .col-xs-6:first-child > .container-fluid .row:first-child div:nth-child(2) {
+        display: flex !important;
+    }
+
+    .col-display:nth-child(2), .col-display:nth-child(3), .col-display:nth-child(5), .col-display:nth-child(6), .col-display:nth-child(8), .col-display:nth-child(9), .col-display:nth-child(11), .col-display:nth-child(12){
+        display: flex !important;
+    }
+
+    .first {
+        display: block !important;
+    }
+    
+    .second {
+        display: none !important;
+    }
 }
 
 /* Desktop (lg) */
@@ -367,4 +402,22 @@
     .col-lg-offset-12 {
         margin-left: calc((100% / 12) * 12);
     } 
+
+    /* BONUS */
+
+    .row .col-xs-6:first-child > .container-fluid .row div:nth-child(1), .row .col-xs-6:first-child > .container-fluid .row:first-child div:nth-child(2) {
+        display: flex !important;
+    }
+
+    .col-display:nth-child(2), .col-display:nth-child(3), .col-display:nth-child(5), .col-display:nth-child(6), .col-display:nth-child(8), .col-display:nth-child(9), .col-display:nth-child(11), .col-display:nth-child(12){
+        display: flex !important;
+    }
+
+    .first {
+        display: block !important;
+    }
+    
+    .second {
+        display: none !important;
+    }
 }
