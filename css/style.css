@@ -16,11 +16,11 @@
     border: solid 1px white;
 }
 
-.col-xs-6 > .container-fluid {
+.col-lg-6 > .container-fluid {
     padding: 15px;
 }
 
-.col-xs-6 > .container-fluid .row div {
+.col-lg-6 > .container-fluid .row div {
     border: solid 1px #006cfa;
     background-color: #00e265;
 
