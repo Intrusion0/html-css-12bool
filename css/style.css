@@ -7,7 +7,25 @@
 }
 
 [class*="col-"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     min-height: 50px;
-    background-color: blue;
+    background-color: #006cfa;
     border: solid 1px white;
+}
+
+.col-xs-6 > .container-fluid {
+    padding: 15px;
+}
+
+.col-xs-6 > .container-fluid .row div {
+    border: solid 1px #006cfa;
+    background-color: #00e265;
+
+}
+
+.container-fluid:nth-child(2) {
+    margin-top: 20px;
 }
